@@ -1,11 +1,15 @@
 package _02_Integer_Stack;
 
+import java.util.ArrayList;
+
 public class IntegerStack {
 	//1. create a private array of integers
-	
+	private ArrayList <Integer> ints = new ArrayList <Integer>();
 	//2. complete the constructor by initializing the member array
 	//   to a new array of length 0. This prevents null pointer exceptions.
+	
 	public IntegerStack() {
+		
 	}
 	
 	//3. Complete the steps in the push method.
